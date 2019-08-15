@@ -53,3 +53,11 @@ First, start the rails server. Then, make a request to `/tasks/new`, fill out th
             -   destroy
 
                 -   DELETE - Update for deleting the item from the database
+
+### 4
+
+```
+    first_user = User.create()
+
+    firstUser.update(email: "mike@landers.dev", active: true)
+```
