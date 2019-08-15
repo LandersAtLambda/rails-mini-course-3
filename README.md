@@ -5,7 +5,7 @@
 1. Create a new rails app using the rails app generator
 2. Scaffold the resources shown below using rails generators
 
-*Note: Don't forget to initialize and setup the database as part of your scaffolding process.*
+_Note: Don't forget to initialize and setup the database as part of your scaffolding process._
 
 **`User`**
 
@@ -45,17 +45,17 @@ First, start the rails server. Then, make a request to `/tasks/new`, fill out th
 
 5. Explain all 7 of the RESTful actions in Rails
 
-   - List each action by its name
-   - Explain which HTTP verbs pair with each action
-   - Write a short sentence for each action that summarizes what it does
+    - List each action by its name
+    - Explain which HTTP verbs pair with each action
+    - Write a short sentence for each action that summarizes what it does
 
 ## Step Three - Modify Routes
 
 Our application has all 7 actions available for both Users and Tasks. We don't want that--we want to set limits on these resources.
 
-  - Limit users resource to *only* allow `index` and `show`
-  - Limit tasks resource to allow everything *except* `destroy`
-  - remove the corresponding controller actions that are no longer routable
+-   Limit users resource to _only_ allow `index` and `show`
+-   Limit tasks resource to allow everything _except_ `destroy`
+-   remove the corresponding controller actions that are no longer routable
 
 ## Step Four - Use Rails Console to Create a User
 
