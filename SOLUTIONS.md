@@ -25,8 +25,8 @@ First, start the rails server. Then, make a request to `/tasks/new`, fill out th
     -   List each action by its name
     -   Explain which HTTP verbs pair with each action
     -   Write a short sentence for each action that summarizes what it does
-          
-         - index
+
+            - index
 
                 -   GET - Gets all of whatever the controller is managing
 
